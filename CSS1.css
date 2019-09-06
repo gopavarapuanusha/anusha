@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 2, 2019, 2:28:42 PM
+    Author     : urk17cs228
+*/
+*{
+    margin:0px;
+   
+}
+header
+{
+    text-align: center;
+    font-size:30px;
+    color:white;
+    background-color: red;
+    text-shadow: 2px 2px black;
+    line-height:50px;
+    font-family:'Arial';
+    
+}
+nav{
+    width:100%;
+}
+ul{
+    list-style-type:none;
+    background-color:orange;
+    color: black;
+    font-family:serif;
+    padding-left:80px;
+    padding-right:80px;
+    padding-bottom:50px;
+    padding-top:30px;
+}
+li{
+    float:left;
+   
+}
+li a{
+    text-decoration: none;
+    display:inline-block;
+    text-align: center;
+    padding:2px 70px;
+}
+li a:hover{
+    background-color:greenyellow;
+    color:blue;
+}
+
+
+.banner{
+    
+    background-image: url('image3.jpg');
+    height:500px;
+    width:100%;
+    background-size: cover;
+    background-position: justify;
+    
+}
+    .text{
+    background-color:rgba(0,0,0,0.7);
+    color:white;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    opacity:0.5;
+    }
+
+
+
+#p{
+    color:white;
+    background-color: black;
+    margin:5%;
+    word-spacing:5px;
+    font-family:serif;
+    font-size:1.5rem;
+    text-align:justify;
+    font-style:italic;
+    padding-bottom:3.5px;
+    padding-top: 3.5px;
+}
+.thumbnail{
+    padding-left:20px;
+    padding-right: 20px;
+    box-sizing: border-box; 
+}
+.thumbnail1{
+    height:200px;
+    width:33%;
+    background-image:url(image2.jpg);
+    position:relative;
+    background-size:cover;
+    display:inline-block;
+}
+.thumbnail2{
+    height: 200px;
+    width:32%;
+    position:relative;
+    background-image:url(image1.jpg);
+    background-size:cover;
+    display:inline-block;
+   
+}
+.thumbnail3{
+    height:200px;
+    width:33%;
+    position:relative;
+    background-image:url(image3.jpg);
+    background-size:cover;
+    display:inline-block;
+}
+#p2,#p3,#p4{
+    background-color:black;
+    color:white;
+    opacity:0.6;
+  
+    text-align:center;
+  
+    position:relative;
+    margin-bottom:0px;
+    margin-top:200px;
+  
+    
+}
